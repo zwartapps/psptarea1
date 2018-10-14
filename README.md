@@ -40,12 +40,11 @@ he optado por un pequeño menu en consola para las acciones que se piden que se 
 Se verá de la siguiente manera:
 <img src="http://i66.tinypic.com/2l9ldhw.jpg" >
 
-- Para ver el estado, conectarnos a la url "http://localhost:8080" que sería la pagina por defecto cuando arrancamos el servidor Tomcat
-si nos da respuesta, por ejemplo 200ms es que la conexion está establecido.
-en caso contrario no nos dará respuesta.
+- Para ver el estado, intentamos conectarnos a la url "http://localhost:8080" que sería la pagina por defecto cuando arrancamos el servidor Tomcat. Si el codgifo de respuesta es 200 la conexion se habrá establecido correctamente.
+en caso contrario no nos dará respuesta o un codigo diferente.
 Servidor arrancado dará:
 
-<img src="http://i68.tinypic.com/35b5kkw.jpg">
+<img src="http://i68.tinypic.com/hwg5ft.jpg">
 
 - Para parar, abrir una ventana CMD en Windows y ejecutar D:\apache-tomcat-9.0.12\bin\shutdown.bat
 
