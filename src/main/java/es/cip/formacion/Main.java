@@ -1,11 +1,11 @@
 package es.cip.formacion;
 
-import java.io.IOException;
-import java.net.ConnectException;
 import java.util.Scanner;
 
 public class Main {
 
+
+    //Creamos un pequeño menu de consola con switch, llamamos a los metodos de la clase Tarea en cada opcion
     public static void main(String[] args) {
         Tarea tarea = new Tarea();
         int select;
@@ -14,7 +14,7 @@ public class Main {
             System.out.println("2\t Parar Tomcat");
             System.out.println("3\t Ver estado Tomcat");
             System.out.println("4\t Salir");
-            System.out.println(" Por favor elige una opcion: ");
+            System.out.println("Por favor elige una opcion: ");
             Scanner scanner = new Scanner(System.in);
             select = scanner.nextInt();
 
